@@ -12,7 +12,7 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTIOON=false npm install --prefix front && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTIOON=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Ariba",
   "license": "MIT",
