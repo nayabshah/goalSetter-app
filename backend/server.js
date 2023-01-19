@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === "production") {
     )
   );
 } else {
-  app.get("/", (req, res) => res.send("Pleace set to production"));
+  app.get("/", (req, res) => res.send("Please set NODE_ENV to production"));
 }
 
 app.use(errorHandler);
